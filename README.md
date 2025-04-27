@@ -4,6 +4,8 @@ Pascal/Lazarus interface to the muparser library
 The [muparser library](https://beltoforion.de/en/muparser/) allows the parsing of mathematical expressions. The main objective muparser is to provide a fast, easy and secure way of doing this. muparser is an extensible high performance math expression parser library written in C++. It works by transforming a mathematical expression into bytecode and precalculating constant parts of the expression. For best performance muparser allows parallelized evaluation of expressions with OpenMP. parallelized evaluation of expressions with OpenMP.
 
 The files here allow the use of the muparser library in [fpc and Lazarus](https://www.lazarus-ide.org/). Only the C dll interface is translated.
+Interface and dll are muparser-2.3.5, the addional needed dlls libgcc_s_seh-1.dll, libstdc++-6.dll and libwinpthread-1.dll are part of the mingw64 project.
+The dll was compiled in mingw64.
 
 For details how to use, pls refer to the muparser examples in C/C++ and do the same in pascal.
 
