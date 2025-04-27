@@ -5,7 +5,7 @@ The [muparser library](https://beltoforion.de/en/muparser/) allows the parsing o
 
 The files here allow the use of the muparser library in [fpc and Lazarus](https://www.lazarus-ide.org/). Only the C dll interface is translated.
 Interface and dll are muparser-2.3.5, the addional needed dlls libgcc_s_seh-1.dll, libstdc++-6.dll and libwinpthread-1.dll are part of the mingw64 project.
-The dll was compiled in mingw64.
+The dll was compiled in mingw64. You may compile your own (newer) dll, but check the header muParserDLL.h to be compatible and read this full README before.
 
 For details how to use, pls refer to the muparser examples in C/C++ and do the same in pascal.
 
