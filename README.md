@@ -1,5 +1,6 @@
 # laz_muparser
-Pascal/Lazarus interface to the muparser library
+
+**Pascal/Lazarus interface to the muparser library**
 
 The [muparser library](https://beltoforion.de/en/muparser/) allows the parsing of mathematical expressions. The main objective muparser is to provide a fast, easy and secure way of doing this. muparser is an extensible high performance math expression parser library written in C++. It works by transforming a mathematical expression into bytecode and precalculating constant parts of the expression. For best performance muparser allows parallelized evaluation of expressions with OpenMP. parallelized evaluation of expressions with OpenMP.
 
